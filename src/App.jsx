@@ -17,14 +17,13 @@ function App() {
           <Header />
           <div className='flex justify-around  mb-4 mx-10 max-sm:mx-3'>
             <Social link={facebook} tittle="https://www.facebook.com/profile.php?id=100014218954756" />
-            <Social link={instagram} tittle="https://www.instagram.com/dipxnjxn_/" />
+            <Social link={instagram} tittle="https://www.instagram.com/dipxnjxn/" />
             <Social link={linkedin} tittle="https://www.linkedin.com/in/dipanjan-saha-24884b221/" />
             <Social link={github} tittle="https://github.com/dipxnjxn" />
           </div>
           <div className='max-sm:text-sm'>
             <Vercard tittle="Check-out my blog" link="/lost" />
             <Vercard tittle="Buy me a coffee" link="/lost" />
-            <Vercard tittle="My youtube (anime content)" link="https://www.youtube.com/@Animoxx07/featured" />
             <Vercard tittle="Available projects (githubs only) " link="https://github.com/dipxnjxn" />
             <Vercard tittle="Get yourself the best gift" link="/lost" />
           </div>
